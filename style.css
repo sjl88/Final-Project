@@ -2,32 +2,32 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #267326;
+  background-color: #334d00;
   /* background-color: dimgrey; */
 }
 
 .index{
-background-color: #2d862d;
+background-color: #446600;
 }
 
 .file2{
-background-color: #2d862d;
+background-color: #446600;
 }
 
 .file20{
-background-color: #2d862d;
+background-color: #446600;
 }
 
 .file3{
-background-color: #2d862d;
+background-color: #446600;
 }
 
 .file4{
-background-color: #2d862d;
+background-color: #446600;
 }
 
 .file5{
-background-color: #2d862d;
+background-color: #446600;
 }
 
 /* Places text in the middle of the image */
@@ -41,6 +41,8 @@ background-color: #2d862d;
   color: white;
   font-family: Arial, sans-serif;
   font-size: 1.5em;
+
+
 }
 
 .hero-text h2 {   /* This section adds the text stylings for your hero block */
@@ -53,13 +55,27 @@ background-color: #2d862d;
     font-weight: bold;
 }
 
-.hero-text h3 {   /* This section adds the text stylings for your hero block */
+.other-text {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+
+
+}
+
+.other-text h2 {   /* This section adds the text stylings for your hero block */
   display: block;
-    font-size: 0.6em;
+  text-align: center;
+    font-size: 1.2em;
     margin-block-start: 2.33em;
     margin-block-end: 2.33em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    font-weight: bold;
 }
 
 /*  - PARALLAX -
@@ -176,52 +192,35 @@ this css. element centers text elements*/
   display: inline-block;
 }
 
+<!-- HTML !-->
+<button class="button-37" role="button">Button 37</button>
+
 /* CSS */
-.button-68 {
-  appearance: none;
-  backface-visibility: hidden;
-  background-color: #39ac39;
-  border-radius: 8px;
-  border-style: none;
-  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+.button-37 {
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
-  display: inline-block;
-  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 16px;
-  font-weight: 600;
-  letter-spacing: normal;
-  line-height: 1.5;
+  font-weight: 400;
   outline: none;
-  overflow: hidden;
-  padding: 13px 20px;
-  position: relative;
+  outline: 0;
+  padding: 10px 25px;
   text-align: center;
-  text-decoration: none;
-  transform: translate3d(0, 0, 0);
-  transition: all .3s;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  vertical-align: top;
-  white-space: nowrap;
 }
 
-.button-68:hover {
-  background-color: #1e8449;
-  opacity: 1;
-  transform: translateY(0);
-  transition-duration: .35s;
-}
-
-.button-68:active {
-  transform: translateY(2px);
-  transition-duration: .35s;
-}
-
-.button-68:hover {
-  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+.button-37:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
 }
 
 @media (min-width: 768px) {
