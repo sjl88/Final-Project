@@ -7,27 +7,27 @@ body, html {
 }
 
 .index{
-background-color: #446600;
+background-color: #334d00;
 }
 
 .file2{
-background-color: #446600;
+background-color: #334d00;
 }
 
 .file20{
-background-color: #446600;
+background-color: #334d00;
 }
 
 .file3{
-background-color: #446600;
+background-color: #334d00;
 }
 
 .file4{
-background-color: #446600;
+background-color: #334d00;
 }
 
 .file5{
-background-color: #446600;
+background-color: #334d00;
 }
 
 /* Places text in the middle of the image */
@@ -192,8 +192,6 @@ this css. element centers text elements*/
   display: inline-block;
 }
 
-<!-- HTML !-->
-<button class="button-37" role="button">Button 37</button>
 
 /* CSS */
 .button-37 {
