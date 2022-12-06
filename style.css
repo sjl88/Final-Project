@@ -79,6 +79,31 @@ background-color: #334d00;
     font-weight: bold;
 }
 
+.bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #13aa52;
+}
+
+.bar li {
+  float: left;
+}
+
+.bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.bar li a:hover {
+  background-color: #9fdf9f;
+}
+
 /*  - PARALLAX -
 This code controls that cool parallax image and scrolling effect. Change the image "fuego.jpg" below to match your asset.*/
 /*You can always add more parllax assets on your web document, just follow the directions at the bottom of the index.html.*/
