@@ -248,7 +248,7 @@ this css. element centers text elements*/
   transform: translateY(-2px);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .button-37 {
     padding: 10px 30px;
   }
@@ -257,9 +257,9 @@ this css. element centers text elements*/
 @media (min-width: 768px) {
   .button-49,
   .button-49:after {
-    width: 200px;
-    height: 86px;
-    line-height: 88px;
+    width: 240px;
+    height: 100px;
+    line-height: 100px;
   }
 }
 
